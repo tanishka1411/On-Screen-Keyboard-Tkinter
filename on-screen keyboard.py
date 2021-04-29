@@ -103,7 +103,7 @@ def keyboard():
 
 root=Tk()
 root.title("Keyboard")
-root.iconbitmap('icons/keyboard.png')
+root.iconphoto(False,PhotoImage(file="icons/keyboard.png"))
 content_text = Text(root,wrap='word')
 content_text.pack(expand='yes', fill='both')
 Button(root, text="TYPE", bg="#D1E7E0", fg="#5B8340",
